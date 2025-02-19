@@ -10,8 +10,8 @@ export function Dock() {
         <a class="dock-item flex justify-center items-center flex-col" href="/">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="20"
+            height="20"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -22,13 +22,13 @@ export function Dock() {
             <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path>
             <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
           </svg>
-          <span>首页</span>
+          <span class="text-sm font-medium">首页</span>
         </a>
         <a class="dock-item flex justify-center items-center flex-col" href="/">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="20"
+            height="20"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -41,15 +41,15 @@ export function Dock() {
             <rect width="7" height="7" x="14" y="14" rx="1" />
             <rect width="7" height="7" x="3" y="14" rx="1" />
           </svg>
-          <span>应用</span>
+          <span class="text-sm font-medium">应用</span>
         </a>
         <a
           class="dock-item flex justify-center items-center flex-col"
           href="/about">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="20"
+            height="20"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -60,7 +60,7 @@ export function Dock() {
             <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
             <circle cx="12" cy="7" r="4"></circle>
           </svg>
-          <span>我的</span>{" "}
+          <span class="text-sm font-medium">我的</span>{" "}
         </a>
       </div>
     </>
