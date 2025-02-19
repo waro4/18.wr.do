@@ -9,7 +9,6 @@ export default function Home() {
           <h1 class="my-4 font-bold text-[#c5005a]">情趣小游戏</h1>{" "}
           <h2 class="mb-4 text-[#c5005a]">恋爱，情趣，好玩</h2>
           <div class="text-center mt-8">
-            <div class="font-black my-4 text-[#c5005a]">点击按钮开始游戏</div>
             <div class="my-4 grid grid-cols-2 gap-4">
               <a
                 href="/fxq/index.html"
@@ -32,6 +31,7 @@ export default function Home() {
                 🔥姿势大全
               </a>
             </div>
+            <div class="font-black my-4 text-[#c5005a]">点击按钮开始游戏</div>
           </div>
           <div class="mt-20 fixed bottom-20 left-0 right-0 text-center text-[#c5005a]">
             支持android，ios，平板，电脑等设备访问
