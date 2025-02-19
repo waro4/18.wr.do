@@ -7,7 +7,7 @@ export default function Error404() {
       <Head>
         <title>404 - Page not found</title>
       </Head>
-      <div class="px-4 py-8 mx-auto h-screen bg-[#86efac]">
+      <div class="px-4 py-8 mx-auto h-screen bg-[#f9e4f0]">
         <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
           <img
             class="my-6"

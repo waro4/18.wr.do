@@ -23,14 +23,14 @@ export default function AI() {
       <Head>
         <title>18.wr.do会员空间</title>
       </Head>
-      <div class="w-full leading-8 p-2 min-h-screen text-shadow bg-pink-400 text-lg text-red-100">
+      <div class="w-full leading-8 p-2 min-h-screen text-shadow bg-[#f9e4f0] text-lg text-red-100">
         <div class="max-w-screen-md mx-auto p-4">
           <div class="p-2 text-center w-full">
             <a class="block mx-auto" href="/">
               <img src="/logo.png" class="w-12 h-12" />
             </a>
 
-            <div class="mt-4">
+            <div class="mt-4 text-[#c5005a]">
               一个AI情侣，懂你，可撩，力所能及的满足各种需求。
             </div>
           </div>

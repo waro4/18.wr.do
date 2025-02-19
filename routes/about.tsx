@@ -1,8 +1,8 @@
 import { Dock } from "../components/Dock.tsx";
-
+import ACtiveInput from "../islands/active.tsx";
 export default function About() {
   return (
-    <div class="p-2 w-full grids leading-8 min-h-screen text-shadow bg-[#f9e4f0] text-lg text-red-100">
+    <div class="p-3 w-full grids leading-8 min-h-screen text-shadow bg-[#f9e4f0] text-lg text-red-100">
       <div class="mx-auto flex max-w-screen-md flex-col items-center justify-center">
         <div class="flex w-full gap-3 justify-start items-center p-2">
           <a class="" href="/">
@@ -10,6 +10,7 @@ export default function About() {
           </a>
           <h1 class="font-bold text-[#c5005a]">情趣小游戏</h1>
         </div>
+
         <div class="my-6 text-[#c5005a] bg-white border border-base-300 p-4 rounded-lg shadow-lg">
           <h2 class="text-xl font-bold">🎉 9.9 元开通终身会员，权益如下：</h2>{" "}
           <p class="my-4 text-neutral text-sm"></p>
@@ -25,15 +26,17 @@ export default function About() {
               ✨ <span className="font-semibold">永久解锁本应用所有功能</span>
             </li>
           </ul>
-          <button class="btn btn-primary text-white mt-3 px-4 py-2 border rounded-lg bg-pink-600">
+          <ACtiveInput value="" />
+          <button class="btn btn-primary text-sm text-white mt-3 px-4 py-2 border rounded-lg bg-pink-600">
             扫描下方二维码支付 9.9元
           </button>
           <p class="m-2 font-bold text-[#c5005a]">
-            🔔 支付后请添加客服微信【 oiovdev 】为您开通会员! <br />
+            🔔 支付后请添加客服微信【 oiovdev 】获取激活码! <br />
             客服回复时间段：7:00-24:00
           </p>
           <img class="my-3 rounded-lg max-w-[300px]" src="/qrcode.JPG" alt="" />
         </div>
+
         {/* {isVip ? (
           
         ) : (

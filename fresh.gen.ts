@@ -15,8 +15,9 @@ import * as $9 from "./routes/member.tsx";
 import * as $10 from "./routes/position.tsx";
 import * as $11 from "./routes/positions.tsx";
 import * as $12 from "./routes/unopen.tsx";
-import * as $$0 from "./islands/position-list.tsx";
-import * as $$1 from "./islands/vip.tsx";
+import * as $$0 from "./islands/active.tsx";
+import * as $$1 from "./islands/position-list.tsx";
+import * as $$2 from "./islands/vip.tsx";
 
 const manifest = {
   routes: {
@@ -35,8 +36,9 @@ const manifest = {
     "./routes/unopen.tsx": $12,
   },
   islands: {
-    "./islands/position-list.tsx": $$0,
-    "./islands/vip.tsx": $$1,
+    "./islands/active.tsx": $$0,
+    "./islands/position-list.tsx": $$1,
+    "./islands/vip.tsx": $$2,
   },
   baseUrl: import.meta.url,
 };
