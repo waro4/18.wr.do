@@ -33,7 +33,7 @@ export default function Home() {
             </div>
             <div class="font-black my-4 text-[#c5005a]">点击按钮开始游戏</div>
           </div>
-          <div class="mt-20 fixed bottom-20 left-0 right-0 text-center text-[#c5005a]">
+          <div class="mt-20 text-sm fixed bottom-20 left-0 right-0 text-center text-[#c5005a]">
             支持android，ios，平板，电脑等设备访问
             <br />
             @18.wr.do
