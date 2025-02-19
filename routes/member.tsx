@@ -1,7 +1,5 @@
 import { Head } from "$fresh/runtime.ts";
 
-import Footer from "../components/Footer.tsx";
-
 export default function Member() {
   return (
     <>

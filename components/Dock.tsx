@@ -24,7 +24,9 @@ export function Dock() {
           </svg>
           <span class="text-sm font-medium">首页</span>
         </a>
-        <a class="dock-item flex justify-center items-center flex-col" href="/">
+        <a
+          class="dock-item flex justify-center items-center flex-col"
+          href="/apps">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"

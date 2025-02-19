@@ -1,8 +1,6 @@
 import { Head } from "$fresh/runtime.ts";
 import { render } from "preact";
 
-import Footer from "../components/Footer.tsx";
-
 export const handler = {
   async GET(req, ctx) {
     return await ctx.render();
@@ -32,7 +30,7 @@ export default function AI() {
               <img src="/logo.png" class="w-12 h-12" />
             </a>
 
-            <div class="text-xs">
+            <div class="mt-4">
               一个AI情侣，懂你，可撩，力所能及的满足各种需求。
             </div>
           </div>
@@ -58,7 +56,7 @@ export default function AI() {
             <div class="mt-2 flex items-center">
               <div class="w-20"></div>
               <button class="bg-blue-600 rounded p-1 text-white" type="submit">
-                登记试用
+                敬请期待
               </button>
             </div>
           </form>
