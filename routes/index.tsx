@@ -3,7 +3,7 @@ import { Dock } from "../components/Dock.tsx";
 export default function Home() {
   return (
     <>
-      <div class="p-2 w-full leading-8 min-h-screen text-shadow bg-[#f9e4f0] text-lg text-red-100">
+      <div class="p-2 w-full grids leading-8 min-h-screen text-shadow bg-[#f9e4f0] text-lg text-red-100">
         <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
           <img src="/logo.png" class="w-16 h-16 mt-10" />
           <h1 class="my-4 font-bold text-[#c5005a]">情趣小游戏</h1>{" "}

@@ -1,19 +1,8 @@
 import { Dock } from "../components/Dock.tsx";
-import { useSignal } from "@preact/signals";
-import { useEffect } from "preact/hooks";
 
 export default function About() {
-  let vip = localStorage.getItem("vip");
-  const isVip = useSignal(false);
-
-  useEffect(() => {
-    if (vip) {
-      isVip.value = true;
-    }
-  }, []);
-
   return (
-    <div class="p-2 w-full leading-8 min-h-screen text-shadow bg-[#f9e4f0] text-lg text-red-100">
+    <div class="p-2 w-full grids leading-8 min-h-screen text-shadow bg-[#f9e4f0] text-lg text-red-100">
       <div class="mx-auto flex max-w-screen-md flex-col items-center justify-center">
         <div class="flex w-full gap-3 justify-start items-center p-2">
           <a class="" href="/">
