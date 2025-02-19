@@ -1,6 +1,7 @@
 import { Head } from "$fresh/runtime.ts";
 
-import Footer from '../components/Footer.tsx'
+import { Dock } from "../components/Dock.tsx";
+
 export default function Card() {
   return (
     <>
@@ -23,7 +24,6 @@ export default function Card() {
             <label for="card">
               <div class="cardWrapper ">
                 <div class="cardRandom h-full flex flex-col items-center">
-
                   <div class="flex-1"></div>
                   <div class="relative p-4 flex-auto font-black text-3xl text-pink-600">
                     <img src="" class="w-full" id="position" />
@@ -33,12 +33,20 @@ export default function Card() {
               </div>
             </label>
           </div>
-          <div class="text-center">抽一个试试（共<span id="position-count">10</span>个姿势）</div>
+          <div class="text-center">
+            抽一个试试（共<span id="position-count">10</span>个姿势）
+          </div>
           <div class="text-center mt-2" id="goabout">
-            <a href="/about" class="border bg-pink-600 px-4 py-2 rounded text-center" >解锁100个姿势</a>
+            <a
+              href="/about"
+              class="border bg-pink-600 px-4 py-2 rounded text-center">
+              解锁100个姿势
+            </a>
           </div>
         </div>
       </div>
+
+      <Dock />
     </>
-  )
+  );
 }

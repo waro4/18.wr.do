@@ -1,6 +1,6 @@
 import { Head } from "$fresh/runtime.ts";
+import { Dock } from "../components/Dock.tsx";
 
-import Footer from '../components/Footer.tsx'
 export default function Card() {
   return (
     <>
@@ -18,9 +18,15 @@ export default function Card() {
             <a class="flex-1" href="/">
               <img src="/logo.png" class="w-12 h-12" />
             </a>
-            <div class="flex-auto text-center" ><span id="title">基础版</span>任务卡牌</div>
-            <div class="flex-1 text-right" >
-              <a class="p-2 bg-pink-600 border text-sm whitespace-nobreak rounded" href="/card_version">选择版本</a>
+            <div class="flex-auto text-center">
+              <span id="title">基础版</span>任务卡牌
+            </div>
+            <div class="flex-1 text-right">
+              <a
+                class="p-2 bg-pink-600 border text-sm whitespace-nobreak rounded"
+                href="/card_version">
+                选择版本
+              </a>
             </div>
           </div>
           <div class="flex my-4 justify-center">
@@ -29,8 +35,10 @@ export default function Card() {
               <div class="cardWrapper ">
                 <div class="cardRandom h-full flex flex-col items-center">
                   <div class="flex-1"></div>
-                  <div id="content" style="writing-mode: vertical-rl" class="p-4 flex-auto font-black text-3xl text-pink-600">
-                  </div>
+                  <div
+                    id="content"
+                    style="writing-mode: vertical-rl"
+                    class="p-4 flex-auto font-black text-3xl text-pink-600"></div>
                   <div class="flex-1"></div>
                 </div>
               </div>
@@ -40,6 +48,8 @@ export default function Card() {
           <div class="text-center">轮流抽卡完成任务, 无法完成认输受惩罚</div>
         </div>
       </div>
+
+      <Dock />
     </>
-  )
+  );
 }
