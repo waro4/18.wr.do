@@ -10,9 +10,9 @@ export default function About() {
         <div class="max-auto mt-8 max-w-lg leading-8 text-gray-900">
           <div class="text-lg text-gray-500">关于本站</div>
           <div class="my-4">网站目前只接收客服人工收款</div>
-          <div>10元开通会员</div>
-          <div>199元网站部署服务（含素材，开源库中不含敏感素材）</div>
-          <div>支付后添加微信[ wbot10 ] 1~12小时内响应</div>
+          <div>9.9 元开通会员</div>
+          <div>199 元网站部署服务（含素材）</div>
+          <div>支付后添加微信[ oiovdev ] 1~12小时内客服回复</div>
           <div class="mt-4">
             如需其他定制开发， 欢迎联系合作。
             <a href="/custom" class="underline">

@@ -24,7 +24,7 @@ export default function Custom() {
             </div>
             <p>网站主要有飞行棋和姿势卡两个变现的内容为主</p>
             <p>搭建一个收99元，会流量SEO玩法的可以弄一下，我也偷师学习一下。</p>
-            <p class="font-black">加微信 wbot10</p>
+            <p class="font-black">加微信 oiovdev</p>
           </div>
         </div>
       </div>
