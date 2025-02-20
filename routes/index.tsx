@@ -31,9 +31,17 @@ export default function Home() {
                 🔥姿势大全
               </a>
             </div>
-            <div class="font-black my-4 text-[#c5005a]">点击按钮开始游戏</div>
+            <div class="font-medium my-4 text-[#c5005a]">点击按钮开始游戏</div>
           </div>
-          <div class="mt-20 text-sm fixed bottom-20 left-0 right-0 text-center text-[#c5005a]">
+          <div class="text-sm fixed bottom-40 left-0 right-0 text-center text-[#c5005a]">
+            <a
+              class="pb-1 border-b-[0.0625rem] border-dashed border-gray-300"
+              href="https://haokawx.lot-ml.com/Product/Index/475790"
+              target="_blank">
+              📱手机大流量卡套餐【长期29元160G】
+            </a>
+          </div>
+          <div class="text-sm fixed bottom-20 left-0 right-0 text-center text-[#c5005a]">
             支持android，ios，平板，电脑等设备访问
             <br />
             @18.wr.do
