@@ -26,7 +26,7 @@ export function Dock() {
         </a>
         <a
           class="dock-item flex justify-center items-center flex-col"
-          href="/apps">
+          href="/positions">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -43,7 +43,7 @@ export function Dock() {
             <rect width="7" height="7" x="14" y="14" rx="1" />
             <rect width="7" height="7" x="3" y="14" rx="1" />
           </svg>
-          <span class="text-sm font-medium">应用</span>
+          <span class="text-sm font-medium">卡片</span>
         </a>
         <a
           class="dock-item flex justify-center items-center flex-col"
