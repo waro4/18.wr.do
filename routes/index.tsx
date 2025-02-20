@@ -5,7 +5,7 @@ export default function Home() {
     <>
       <div class="p-2 w-full grids leading-8 min-h-screen text-shadow bg-[#f9e4f0] text-lg text-red-100">
         <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
-          <img src="/logo.png" class="w-16 h-16 mt-10" />
+          <img src="/logo.png" class="w-16 h-16 mt-10 rounded-lg" />
           <h1 class="my-4 font-bold text-[#c5005a]">情趣小游戏</h1>{" "}
           <h2 class="mb-4 text-[#c5005a]">恋爱，情趣，好玩</h2>
           <div class="text-center mt-8">

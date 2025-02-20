@@ -16,7 +16,7 @@ export default function Card() {
         <div class="max-w-screen-md mx-auto ">
           <div class="p-2 flex items-center w-full">
             <a class="flex-1" href="/">
-              <img src="/logo.png" class="w-12 h-12" />
+              <img src="/logo.png" class="w-12 h-12 rounded-lg" />
             </a>
           </div>
           <div class="flex my-2 justify-center">

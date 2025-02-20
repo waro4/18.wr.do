@@ -7,7 +7,7 @@ export default function About() {
       <h1 class="my-8 text-sm text-center font-bold text-[#c5005a]">
         18.wr.do 情趣小游戏
       </h1>
-      <img src="/logo.png" class="w-16 h-16 mx-auto" />
+      <img src="/logo.png" class="w-16 h-16 mx-auto rounded-lg" />
       <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
         <VipIsland></VipIsland>
         <div class="leading-8 text-gray-900 max-w-lg mt-8 max-auto">

@@ -10,7 +10,7 @@ export default function Error404() {
       <div class="px-4 py-8 mx-auto h-screen bg-[#f9e4f0]">
         <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
           <img
-            class="my-6"
+            class="my-6 rounded-lg"
             src="/logo.png"
             width="96"
             height="96"
