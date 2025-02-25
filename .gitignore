@@ -5,6 +5,6 @@
 .env.production.local
 .env.local
 
-# static/positions/*
+static/positions/*
 # Fresh build directory
 _fresh/
