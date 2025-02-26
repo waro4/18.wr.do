@@ -43,7 +43,7 @@ export function Dock() {
             <rect width="7" height="7" x="14" y="14" rx="1" />
             <rect width="7" height="7" x="3" y="14" rx="1" />
           </svg>
-          <span class="text-sm font-medium">卡片</span>
+          <span class="text-sm font-medium">姿势</span>
         </a>
         <a
           class="dock-item flex justify-center items-center flex-col"
